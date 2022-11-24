@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/achtergrond.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container{
+    padding-top: 50px;
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: yellow;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+    width: 100%;
+    height: fit-content;
+    display: inline-block;
+    background-image: url("../img/texture.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.itemContainer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.newItem input{
+    display: inline-block;
+}
+
+.orderSelect{
+    text-align: center;
+    background-color: brown;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
